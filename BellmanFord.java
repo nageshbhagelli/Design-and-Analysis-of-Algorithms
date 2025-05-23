@@ -1,3 +1,28 @@
+/*
+ Initialize_Single_Source(G, s):
+	For each vertex v∈G(V)
+		vd = ∞
+		vπ = nil
+	Sd = 0
+
+Relax(u,v,w):
+	If vd > ud + w(u,v)
+		vd = ud + w(u,v)
+		vπ = u
+
+BellmanFord(G, w, s):
+	Initialize_Single_Source(G, s)
+	For i=1 to |G(v)|-1
+		For each edge (u,v) ∈G(E)
+			Relax(u,v,w)
+	For each edge(u,v) ∈ G(E)
+		If vd > ud + w(u,v)
+			Return FALSE
+		Return True
+
+
+ */
+
 import java.util.*;
 
 public class BellmanFord {
