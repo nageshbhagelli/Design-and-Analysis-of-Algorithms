@@ -6,7 +6,7 @@ public class NQueens {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter the value of N (e.g. 4): ");
+        System.out.print("Enter the value of N : ");
         N = scanner.nextInt();
         board = new char[N][N];
 
