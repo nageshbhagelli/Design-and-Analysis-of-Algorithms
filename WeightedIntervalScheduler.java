@@ -64,7 +64,7 @@ public class WeightedIntervalScheduler {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in)
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Enter number of bookings: ");
         int n = scanner.nextInt();
         DramaSchoolBooking[] bookings = new DramaSchoolBooking[n];
