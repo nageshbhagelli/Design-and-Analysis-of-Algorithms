@@ -1,3 +1,10 @@
+/*
+ A phone company wants to lay lines for communication in a city. Different amounts
+are charged for connecting between a pair of cities. Design and implement a solution
+such that it forms a spanning tree with minimum cost.
+
+ */
+
 import java.util.*;
 
 public class KruskalsAlgorithm {
