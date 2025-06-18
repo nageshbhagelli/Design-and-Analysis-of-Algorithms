@@ -1,3 +1,11 @@
+/*
+ A truck driver is given a set of locations to be covered with their distances by a company. 
+ The company strictly orders that truck should be started from a particular location. Give a 
+ solution to the truck driver to find the shortest path for a given source location.
+ 
+
+ */
+
 import java.util.*;
 
 public class DijkstraAlgorithm {
