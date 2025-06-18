@@ -1,4 +1,10 @@
 /*
+ Three users in an online music portal listen to a playlist of 8 songs that are numbered from 
+ 1 to 8 in a random order. Each user needs to be recommended to another user playlist’s order 
+ that has minimum number of inversions. Suggest which algorithm can be chosen for it.
+ */
+
+/*
  * Counting Inversions Algorithm:
  * // Purpose: To count the inversions for a given list L(a1,a2,…,an)
  * // Input: An unsorted list of distinct numbers L(a1,a2,…,an)
