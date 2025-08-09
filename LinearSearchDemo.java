@@ -39,6 +39,6 @@ public class LinearSearchDemo {
                 return i; // Return index if found
             }
         }
-        return -1; // Not found
+        return -1;
     }
 }
